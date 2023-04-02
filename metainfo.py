@@ -1,7 +1,6 @@
 import datetime
 import os
-# p = 'C:/Screenshots'
-# print (str)
+
 def metainfo(path):
     str = os.listdir(path)
     ext = ('.jpeg','.jpg','.png','.JPEG','.JPG','.PNG')
@@ -55,40 +54,3 @@ def metainfo(path):
     #         for ch in str:
     #             if ch.isdigit():
     #                 digit=digit+1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# files = ['DSC_2220.JPG', 'DSC_2221.JPG', 'DSC_2222.JPG', 'DSC_2223.JPG']
-# with exiftool.ExifTool() as et:
-#    metadata = et.get_metadata_batch(dir_list)
-# for d in metadata:
-#    print("{:20.20} {:20.20}".format(d["SourceFile"],
-#                                     d["File:FileName"]))
-# with exiftool.ExifToolHelper() as et:
-#     metadata = et.get_metadata(files)
-# for d in metadata:
-#     print("{:20.20} {:20.20}".format(d["SourceFile"],
-#                                      d["EXIF:DateTimeOriginal"]))
-
-# with ExifToolHelper() as et:
-#     for d in et.get_metadata(dir_list):
-#         for k, v in d.items():
-#             print(f"Dict: {k} = {v}")

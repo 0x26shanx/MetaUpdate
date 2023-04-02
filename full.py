@@ -63,6 +63,6 @@ except :
     raise OSError("Invalid Path")
 image_list,datearray = metainfo(askPath)
 exifupdater(image_list,datearray)
-print (len(image_list))
-print (len(datearray))
+#print (len(image_list))
+#print (len(datearray))
 print("Successful")

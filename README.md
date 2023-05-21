@@ -9,4 +9,4 @@ Exiftool should be added in the PATH.
 
 For GUI experience execute 'gui.py'
 
-For CLI execute 'full.py'
+For CLI execute 'cli.py'
